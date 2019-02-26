@@ -1,0 +1,169 @@
+---
+-
+    Topic: Data classification and security
+    Question: Does the data at-rest require encryption?
+-
+    Topic: Data classification and security
+    Question: Is the data sensitive or classified?
+-
+    Topic: Data classification and security
+    Question: Is the data preprocessed or raw? If raw, what tools?
+-
+    Topic: Deprecated
+    Question: If yes - does this account have Business level support (or better)?
+-
+    Topic: Deprecated
+    Question: Are full schemas provided?
+-
+    Topic: Deprecated
+    Question: Once it is processed, where is the data output?
+-
+    Topic: Deprecated
+    Question: Would you rather have everything stored in the data warehouse or offload legacy data to lower storage cost?
+-
+    Topic: Deprecated
+    Question: Do your users plan on accessing/querying the data warehouse directly from their end client?
+-
+    Topic: Deprecated
+    Question: Is the data model provided?
+-
+    Topic: Deprecated
+    Question: Are specifications provided?
+-
+    Topic: Deprecated
+    Question: Are samples or QA cases provided?
+-
+    Topic: Deprecated
+    Question: How precise is the data, what is the level of granularity?
+-
+    Topic: Deprecated
+    Question: Approximately how many structured data sources?
+-
+    Topic: Environment
+    Question: Are we replacing a system or new development?
+-
+    Topic: Environment
+    Question: How many analysts need access to the system?
+-
+    Topic: Environment
+    Question: What internet bandwidth is available to the environment?
+-
+    Topic: Environment
+    Question: Are users dispersed or centralized? (are multiple networks / regions needed)
+-
+    Topic: General Business
+    Question: What are your business goals for the data and analytics?
+-
+    Topic: General Business
+    Question: Who is responsible for identity and access management, and what system are you using? Would we use that system or IAM?
+-
+    Topic: General Business
+    Question: 'What is the team''s skillset in coding? data? infrastructure? analytics?'
+-
+    Topic: General Business
+    Question: Is the business bound by any compliance requirements?
+-
+    Topic: General Business
+    Question: Has the business defined RTO/RPO guidelines?
+-
+    Topic: General Business
+    Question: Has the business defined customer or internal SLAs?
+-
+    Topic: General Business
+    Question: 'What is the business'' data retention policy?'
+-
+    Topic: Governance
+    Question: What are your data lineage requirements?
+-
+    Topic: Governance
+    Question: Who needs to access? Analytics team, ML team, dev team
+-
+    Topic: Governance
+    Question: What are your data quality requirements? What data sets must have highest quality?
+-
+    Topic: Input Data
+    Question: What are the sources of the data and how are they structured? (structured, semi-structured, unstructured)
+-
+    Topic: Input Data
+    Question: Where is the data located? Network and geography / API?
+-
+    Topic: Input Data
+    Question: Number of unique data sources?
+-
+    Topic: Input Data
+    Question: What is the database engine of the data sources? (Postgres, Mysql,...)
+-
+    Topic: Input Data
+    Question: How much data do you have per source?
+-
+    Topic: Input Data
+    Question: What is the total storage footprint?
+-
+    Topic: Input Data
+    Question: Where will the input data be stored in the future?
+-
+    Topic: Input Data
+    Question: What is the approximate number of tables per data source?
+-
+    Topic: Input Data
+    Question: How do you connect to / access the data in these data sources? (ssh, vpn, private network,...)
+-
+    Topic: Network
+    Question: Are your users familiar with how to tunnel through a bastion server?
+-
+    Topic: Network
+    Question: Are you planning on setting up a VPN connection to the VPC?
+-
+    Topic: Network
+    Question: If yes, do you have a single point of contact to connect the routing device inside the network?
+-
+    Topic: Network
+    Question: Do you already have a VPN server?
+-
+    Topic: Network
+    Question: Is there a consolidated list of IP addresses/CIDR ranges that will need to be white-listed?
+-
+    Topic: Output Data
+    Question: Who will have access to the output data and what is their skillset?
+-
+    Topic: Output Data
+    Question: How will the data be queried? (relational, analytics, lookup, etc.)
+-
+    Topic: Output Data
+    Question: If yes, what is the legacy point? (3 mo, 6 mo, 1 year, 5 year, etc.)
+-
+    Topic: Output Data
+    Question: What are the top 5 most pressing access needs - what should the final datasets look like?
+-
+    Topic: Output Data
+    Question: Do you need an ML environment / data exploration environment?
+-
+    Topic: Process
+    Question: Validation - are there conditional or dependent inputs?
+-
+    Topic: Process
+    Question: How frequently is data updated? (daily, hourly, real time, etc.)
+-
+    Topic: Process
+    Question: What tool(s) conduct your ETL?
+-
+    Topic: Process
+    Question: How quickly must your data be ready for use?
+-
+    Topic: Process
+    Question: Does your data need to be masked/anonymized?
+-
+    Topic: Process
+    Question: Deduplication requirements?
+-
+    Topic: Process
+    Question: What level of integration with other applications?
+-
+    Topic: Process
+    Question: What operations? (pivot, explode, regex, etc.)
+-
+    Topic: Process
+    Question: What kind of process is required to pull or receive data?
+-
+    Topic: Process
+    Question: What are some typical ETL processes on your data?
